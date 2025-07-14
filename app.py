@@ -10,8 +10,8 @@ load_dotenv()
 app = Flask(__name__)
 
 # Twilio credentials
-TWILIO_SID = os.getenv("TWILIO_ACCOUNT_SID")
-TWILIO_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
+TWILIO_SID = os.getenv("US7e41847863430e319b5ace709fbd3c29")
+TWILIO_TOKEN = os.getenv("a5f7e1f03a99af49601b42915662d696")
 client = Client(TWILIO_SID, TWILIO_TOKEN)
 
 # API-Football credentials
